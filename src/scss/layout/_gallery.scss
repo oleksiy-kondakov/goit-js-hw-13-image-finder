@@ -1,0 +1,39 @@
+.gallery {
+  margin-bottom: 30px;
+}
+
+.gallery-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.photo-card-image {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+}
+
+.stats-item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.stats-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.material-icons {
+  margin-right: 10px;
+}
+
+.value {
+  display: block;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+}
